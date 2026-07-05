@@ -1,9 +1,9 @@
 # lonxanhvn.com
 
-Landing page for **Lon Xanh** (*Recycle for the future*) — a recyclables
-collection service in Thủ Dầu Một. Lon Xanh collects aluminium cans, plastic,
-paper and other scrap that customers sort at source, and rewards them with
-points they can redeem.
+Landing page for **Lon Xanh** (*Recycle for the future*) — an **aluminium-only**
+scrap buyer in Thủ Dầu Một. Lon Xanh buys drink cans (Coca, Pepsi, beer, soft
+drinks), aluminium doors/windows, signage/ACP panels, and other aluminium scrap,
+paying above market rate with on-site pickup and payment.
 
 It's a single static page (no build step, no backend) hosted for free on
 **GitHub Pages** and served at the custom domain `lonxanhvn.com`.
@@ -11,9 +11,10 @@ It's a single static page (no build step, no backend) hosted for free on
 ## What's on the page
 
 - **Hero** — brand pitch, call/message CTAs, animated leaf-and-can emblem
-- **Thu gom gì** — the material categories collected
-- **Bảng điểm** — the rewards points board (receipt-style), driven by data in `js/main.js`
-- **Quy trình** — the 3-step "sort → contact → earn points" flow
+- **Thu mua gì** — the aluminium categories bought (cans, doors, signage, scrap)
+- **Giá thu mua** — "contact for quote" card; the receipt-style price board is
+  built but hidden (markup commented in `index.html`, data in `js/main.js`)
+- **Quy trình** — the 3-step "gather → contact → weigh & get paid" flow
 - **Về Lon Xanh** — mission + impact stats
 - **Liên hệ** — hotline, email, address, Facebook/TikTok, Google Maps embed
 

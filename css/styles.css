@@ -387,7 +387,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .materials { background: var(--card); }
 .mat-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 .mat {
@@ -760,6 +760,7 @@ a.cc:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-c
   .points-layout { grid-template-columns: 1fr; }
   .contact-layout { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: repeat(2, 1fr); }
+  .mat-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 860px) {

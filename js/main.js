@@ -2,19 +2,15 @@
 (function () {
   "use strict";
 
-  /* ---- Points board data (from the Lon Xanh rewards app) ---- */
+  /* ---- Points/price board data (aluminium only) ----
+     Currently hidden in index.html (upstream price not finalized).
+     Update the values and uncomment the .receipt block to show the board. */
   var POINTS = [
-    { name: "Đồng", value: "118", unit: "điểm/kg", star: true },
     { name: "Nhôm lon (tính kg)", value: "56", unit: "điểm/kg", star: true },
     { name: "Nhôm phế liệu hỗn hợp", value: "45", unit: "điểm/kg", star: true },
-    { name: "Bình ắc-quy / Bình xe máy", value: "23", unit: "điểm/kg" },
-    { name: "Inox", value: "10", unit: "điểm/kg" },
-    { name: "Nhựa PETE1", value: "4", unit: "điểm/kg" },
-    { name: "Sắt", value: "3", unit: "điểm/kg" },
-    { name: "Nhựa hỗn hợp số 2/4/5", value: "2", unit: "điểm/kg" },
-    { name: "Giấy", value: "1", unit: "điểm/kg" },
-    { name: "Nhôm lon (tính cái)", value: "0.7", unit: "điểm/cái" },
-    { name: "Thủy tinh", value: "0", unit: "điểm/kg" }
+    { name: "Cửa nhôm / nhôm định hình", value: "—", unit: "liên hệ" },
+    { name: "Bảng hiệu nhôm / tấm alu", value: "—", unit: "liên hệ" },
+    { name: "Nhôm lon (tính cái)", value: "0.7", unit: "điểm/cái" }
   ];
 
   function renderPoints() {
