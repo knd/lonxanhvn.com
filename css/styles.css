@@ -475,18 +475,20 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-weight: 700;
   color: var(--ink);
   font-size: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
 }
 .pt-star {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-left: 8px;
   font-family: var(--font-display);
   font-size: .6rem;
   font-weight: 800;
   letter-spacing: .06em;
+  line-height: 1.4;
   color: var(--forest);
   background: var(--lime);
-  padding: 3px 7px;
+  padding: 2px 8px;
   border-radius: 999px;
   text-transform: uppercase;
 }
