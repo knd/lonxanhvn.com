@@ -324,6 +324,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .emblem-img {
   position: relative;
   width: 74%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 24px 60px rgba(14,63,38,.24);
   background: #fff;

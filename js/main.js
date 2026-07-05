@@ -1,8 +1,8 @@
-/* Lôn Xanh — landing interactions (vanilla JS, client-side only) */
+/* Lon Xanh — landing interactions (vanilla JS, client-side only) */
 (function () {
   "use strict";
 
-  /* ---- Points board data (from the Lôn Xanh rewards app) ---- */
+  /* ---- Points board data (from the Lon Xanh rewards app) ---- */
   var POINTS = [
     { name: "Đồng", value: "118", unit: "điểm/kg", star: true },
     { name: "Nhôm lon (tính kg)", value: "56", unit: "điểm/kg", star: true },

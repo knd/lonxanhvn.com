@@ -1,7 +1,7 @@
 # lonxanhvn.com
 
-Landing page for **Lôn Xanh** (*Recycle for the future*) — a recyclables
-collection service in Thủ Dầu Một. Lôn Xanh collects aluminium cans, plastic,
+Landing page for **Lon Xanh** (*Recycle for the future*) — a recyclables
+collection service in Thủ Dầu Một. Lon Xanh collects aluminium cans, plastic,
 paper and other scrap that customers sort at source, and rewards them with
 points they can redeem.
 
@@ -14,7 +14,7 @@ It's a single static page (no build step, no backend) hosted for free on
 - **Thu gom gì** — the material categories collected
 - **Bảng điểm** — the rewards points board (receipt-style), driven by data in `js/main.js`
 - **Quy trình** — the 3-step "sort → contact → earn points" flow
-- **Về Lôn Xanh** — mission + impact stats
+- **Về Lon Xanh** — mission + impact stats
 - **Liên hệ** — hotline, email, address, Facebook/TikTok, Google Maps embed
 
 The page is fully responsive (mobile → desktop), SEO-optimized, and
