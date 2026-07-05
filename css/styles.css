@@ -509,6 +509,87 @@ ul { margin: 0; padding: 0; list-style: none; }
 .pt-val em { font-style: normal; color: var(--muted); font-family: var(--font-body); font-weight: 600; font-size: .82rem; }
 .pt-val.zero { color: var(--alu-d); }
 
+/* Quote card (shown while the detailed points board is hidden) */
+.quote-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--forest-d), var(--forest));
+  color: #eaf6e2;
+  border-radius: var(--r-md);
+  padding: clamp(28px, 4vw, 44px);
+  box-shadow: var(--shadow-lg);
+}
+.quote-card::before {
+  content: "";
+  position: absolute;
+  right: -28%; bottom: -38%;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(183,221,90,.28), transparent 70%);
+  pointer-events: none;
+}
+.quote-ico {
+  position: relative;
+  width: 60px; height: 60px;
+  border-radius: 16px;
+  display: grid; place-items: center;
+  background: rgba(255,255,255,.12);
+  color: var(--lime);
+  margin-bottom: 20px;
+}
+.quote-ico svg { width: 30px; height: 30px; }
+.quote-card h3 {
+  position: relative;
+  color: #fff;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 800;
+}
+.quote-card > p {
+  position: relative;
+  color: rgba(234,246,226,.85);
+  margin-top: 12px;
+  font-size: 1.05rem;
+  max-width: 42ch;
+}
+.quote-actions {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+.quote-actions .btn-primary {
+  background: var(--lime);
+  color: var(--forest-d);
+  box-shadow: 0 10px 24px rgba(0,0,0,.22);
+}
+.quote-actions .btn-primary:hover { background: #c7e772; }
+.quote-actions .btn-ghost {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  border-color: rgba(255,255,255,.28);
+  box-shadow: none;
+}
+.quote-actions .btn-ghost:hover { background: rgba(255,255,255,.18); border-color: #fff; }
+.quote-perks {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,.15);
+}
+.quote-perks li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: .94rem;
+  color: #eaf6e2;
+}
+.quote-perks svg { width: 18px; height: 18px; color: var(--lime); flex: none; }
+
 /* ---------- Steps ---------- */
 .steps { background: var(--card); }
 .step-grid {

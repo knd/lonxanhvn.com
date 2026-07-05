@@ -86,7 +86,7 @@
 
       <nav class="nav-links" aria-label="Điều hướng chính">
         <a href="#thu-gom">Thu gom gì</a>
-        <a href="#bang-diem">Bảng điểm</a>
+        <a href="#bang-diem">Giá thu mua</a>
         <a href="#quy-trinh">Quy trình</a>
         <a href="#lien-he">Liên hệ</a>
       </nav>
@@ -206,7 +206,7 @@
           <article class="mat reveal">
             <div class="mat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3l7 7-4 4-7-7z"/><path d="M10 7 3 14l4 4 7-7"/><path d="M5 21l2-2"/></svg></div>
             <h3>Kim loại</h3>
-            <p>Đồng, sắt, inox, nhôm phế liệu hỗn hợp — thu mua theo bảng điểm.</p>
+            <p>Đồng, sắt, inox, nhôm phế liệu hỗn hợp — thu mua giá cao.</p>
           </article>
           <article class="mat reveal">
             <div class="mat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="8" width="18" height="11" rx="2"/><path d="M7 8V6h4v2M7 12h2M12 12h2M11 5h6"/></svg></div>
@@ -222,19 +222,45 @@
       </div>
     </section>
 
-    <!-- ============ POINTS BOARD (signature) ============ -->
+    <!-- ============ PRICING / QUOTE ============ -->
+    <!-- Note: chi tiết bảng điểm/giá tạm ẩn (chưa chốt giá đầu nguồn).
+         Bật lại: bỏ comment khối <div class="receipt"> bên dưới. Dữ liệu ở js/main.js. -->
     <section class="section points" id="bang-diem">
       <div class="wrap points-layout">
         <div class="points-aside reveal">
-          <span class="eyebrow">Bảng điểm</span>
-          <h2 style="font-size:clamp(1.9rem,4.4vw,3rem);font-weight:800;margin-top:14px;">Đổi phế liệu, cộng điểm ngay tại chỗ</h2>
-          <p style="color:var(--muted);margin-top:16px;">Mỗi loại phế liệu có mức điểm riêng. Bạn tích điểm sau mỗi lần thu gom và dùng điểm để đổi quà, tiền mặt hoặc quyên góp cho môi trường.</p>
+          <span class="eyebrow">Giá thu mua</span>
+          <h2 style="font-size:clamp(1.9rem,4.4vw,3rem);font-weight:800;margin-top:14px;">Thu mua cao hơn giá thị trường</h2>
+          <p style="color:var(--muted);margin-top:16px;">Lon Xanh cam kết thu mua phế liệu với giá tốt hơn mặt bằng chung. Bảng giá chi tiết đang được cập nhật — anh/chị vui lòng liên hệ để nhận báo giá mới nhất.</p>
           <div class="note">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-            <span>Mức điểm mang tính tham khảo và được cập nhật theo giá thị trường. Gọi hotline để biết giá chính xác trong ngày.</span>
+            <span>Giá thay đổi theo thị trường từng ngày. Gọi hotline hoặc nhắn Facebook để được báo giá nhanh nhất trong ngày.</span>
           </div>
         </div>
 
+        <div class="quote-card reveal">
+          <div class="quote-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41 13.42 20.6a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><circle cx="7" cy="7" r="1.2" fill="currentColor"/></svg>
+          </div>
+          <h3>Nhận báo giá hôm nay</h3>
+          <p>Cho Lon Xanh biết bạn có loại phế liệu nào — chúng tôi báo giá ngay và thu gom tận nơi.</p>
+          <div class="quote-actions">
+            <a href="tel:0838371171" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Gọi 0838.371.171
+            </a>
+            <a href="https://www.facebook.com/lonxanhvn/" target="_blank" rel="noopener" class="btn btn-ghost">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+              Nhắn Facebook
+            </a>
+          </div>
+          <ul class="quote-perks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Giá cao hơn thị trường</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Cân đúng, minh bạch</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Thu gom tận nơi</li>
+          </ul>
+        </div>
+
+        <!-- BẢNG ĐIỂM TẠM ẨN — bật lại khi đã chốt giá với đầu nguồn (dữ liệu ở js/main.js):
         <div class="receipt reveal">
           <div class="receipt-head">
             <b>BẢNG ĐIỂM THU MUA</b>
@@ -242,6 +268,7 @@
           </div>
           <div id="pointsList"></div>
         </div>
+        -->
       </div>
     </section>
 
@@ -355,7 +382,7 @@
         </a>
         <nav class="footer-links" aria-label="Liên kết chân trang">
           <a href="#thu-gom">Thu gom gì</a>
-          <a href="#bang-diem">Bảng điểm</a>
+          <a href="#bang-diem">Giá thu mua</a>
           <a href="#quy-trinh">Quy trình</a>
           <a href="#lien-he">Liên hệ</a>
           <a href="https://www.facebook.com/lonxanhvn/" target="_blank" rel="noopener">Facebook</a>
